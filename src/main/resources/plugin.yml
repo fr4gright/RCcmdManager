@@ -1,0 +1,18 @@
+name: RCcmdManager
+version: 3.3
+main: me.rvt.rccmdmanager.RCcmdManager
+api-version: 1.13
+authors: [RvT]
+description: Command control for RebrovoCraft
+website: rebrovocraft.info
+depend: [Residence]
+commands:
+  getip:
+    description: Logs all players' IPs
+    usage: /getip <player>
+  email:
+    description: set/delete your E-Mail address.
+    usage: /email set <your e-mail>
+permissions:
+  rccmdmanager.getip:
+    description: Allows /getip command
